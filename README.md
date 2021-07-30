@@ -1,2 +1,2 @@
 # pets
-This repository was created for my public project and test tasks
+This repository was created for my public projects and test tasks
