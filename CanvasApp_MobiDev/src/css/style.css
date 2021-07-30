@@ -1,0 +1,75 @@
+#canvas {
+	width: 1000px;
+	height: 700px;
+	border: 2px solid #5f51a6;
+	background-color: white;
+	cursor: url(http://r98196nd.beget.tech/etc/cursor.png)-50 50, crosshair;
+	box-shadow: 0px 2px 5px #5f51a6;
+}
+
+#size {
+	color: #5f51a6;
+}
+
+body {
+	background-image: url('../img/bg-toys.jpg');
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.wrapper__canvas {
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper__tools {
+	border: 2px solid #5f51a6;
+	box-shadow: 0 0 10px #5f51a6;
+	padding: 10px;
+	margin: 10px;
+	width: 1000px;
+	background-color: #fcfcfcfa;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.wrapper__tools > * {
+	margin: 3px 5px;
+	color: #5f51a6;
+	cursor: pointer;
+}
+
+.wrapper__tools:hover {
+	color: #4a3a97;
+}
+
+.wrapper__size {
+	position: relative;
+}
+
+.wrapper__size-modal {
+	position: absolute;
+	display: none;
+	border: 2px solid #5f51a6;
+	box-shadow: 0 0 10px #5f51a6;
+	padding: 2px;
+	margin: 5px;
+	background-color: #fcfcfcfa;
+	right: -50px;
+}
+
+.range-size {
+	margin: 0;
+	text-align: center;
+}
+
+.img-svg {
+	fill: #5f51a6;
+	width: 40px;
+	height: 40px;
+}
