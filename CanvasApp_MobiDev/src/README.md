@@ -11,6 +11,7 @@ First of all, i realised main following features:
 <br>
 
 Additional features that was realised: 
+<br>
 ● Erase with RMB (eraser has the same size as the current line size) 
 
 Also you can download your picture as "canvas.png"
